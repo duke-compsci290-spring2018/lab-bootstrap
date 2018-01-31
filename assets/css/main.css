@@ -1,0 +1,108 @@
+body {
+    font-family: helvetica;
+    font-size: 12px;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+#logo {
+    /* use percentages instead of fixed values */
+    width: 38%;
+    float: left;
+}
+
+header img {
+    width: 100%;
+    margin: 4px 0px;
+}
+
+nav {
+    /* override browser defaults */
+    padding: 0;
+    /* use percentages instead of fixed values */
+    width: 56%;
+    float: right;
+    background-color: #CCCCCC;
+    margin-top: 12%;
+}
+
+nav ul {
+    /* override browser defaults */
+    padding: 0;
+    border: 0;
+    margin: auto;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+nav li:hover, nav li.active {
+    color: #FFFFFF;
+    background-color: #059BD8;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    /* override browser defaults */
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    width: 20%;
+    padding: 1%;
+    display: inline-block;
+    margin: 0px 1%;
+    background-color: #FFDF7F;
+}
+
+article img {
+    width: 100%;
+}
+
+article h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+article p {
+    font-size: 10px;
+}
+
+footer {
+    background-color: #CEE8f4;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+#footerleft {
+    /* override browser defaults */
+    width: 45%;
+    margin: 1%;
+    padding: 4;
+    float: left;
+}
+
+#footerright {
+    /* override browser defaults */
+    width: 39%;
+    margin: 1%;
+    padding: 4;
+    float: right;
+}
