@@ -62,15 +62,20 @@ section {
 }
 
 article {
-    width: 20%;
+    /* I had to comment this out to make Bootstrap margins between columns work correctly */
+    /* width: 20%; */
+    /* Not needed when using Bootstrap grid system */
+    /* display: inline-block;*/
+    /* Use this instead to better support floats */
+    overflow: hidden;
     padding: 1%;
-    display: inline-block;
     margin: 0px 1%;
     background-color: #FFDF7F;
 }
 
 article img {
-    width: 100%;
+    /* I had to comment this out to make Bootstrap float work correctly */
+    /*width: 100%;*/
 }
 
 article h2 {
