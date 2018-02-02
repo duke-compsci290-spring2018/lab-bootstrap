@@ -25,16 +25,19 @@ nav {
     padding: 0;
     /* use percentages instead of fixed values */
     width: 56%;
-    float: right;
     background-color: #CCCCCC;
-    margin-top: 12%;
+    /* Not needed anymore, using Bootstrap to manage in grid system. */
+    /* float: right; */
+    /* Not needed anymore, using Bootstrap to manage margin. */
+    /* margin-top: 12%; */
 }
 
 nav ul {
     /* override browser defaults */
     padding: 0;
     border: 0;
-    margin: auto;
+    /* I needed to change this to avoid having it always centered. */
+    margin: 0;
 }
 
 nav li {
@@ -110,4 +113,14 @@ footer {
     margin: 1%;
     padding: 4;
     float: right;
+}
+
+/* This is necessary to change the coloring around the nav links to look like buttons */
+@media screen and (max-width: 768px) {
+    nav {
+        background-color: #FFFFFF;
+    }
+    nav li {
+        background-color: #CCCCCC;
+    }
 }
